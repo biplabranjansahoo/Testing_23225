@@ -1,0 +1,9 @@
+# Created at 2025-02-13T18:48:45.245
+ERROR: transport error 202: bind failed: Address already in use
+
+# Created at 2025-02-13T18:48:45.245
+ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+
+# Created at 2025-02-13T18:48:45.245
+JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [s\src\jdk.jdwp.agent\share\native\libjdwp\debugInit.c:744]
+

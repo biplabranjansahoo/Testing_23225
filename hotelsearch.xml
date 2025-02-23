@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HotelSuite , owner name : Jhon Deo" >
+	<test name="Hotel Test">
+		<classes>
+			<class name="com.qa.testpages.HotelPageTest" />
+		</classes>
+	</test>
+</suite>

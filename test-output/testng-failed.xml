@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FightSearch Suite , owner name : Sunita Das ]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Flight Test(failed)">
+    <classes>
+      <class name="com.qa.testpages.FlightsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testFlightSearch"/>
+          <include name="test1FlightSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testpages.FlightsPageTest -->
+    </classes>
+  </test> <!-- Flight Test(failed) -->
+</suite> <!-- Failed suite [FightSearch Suite , owner name : Sunita Das ] -->

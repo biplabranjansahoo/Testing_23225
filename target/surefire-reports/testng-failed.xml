@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HotelSuite , owner name : Jhon De]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Hotel Test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.testpages.HotelPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHotelSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testpages.HotelPageTest -->
+    </classes>
+  </test> <!-- Hotel Test(failed) -->
+</suite> <!-- Failed suite [HotelSuite , owner name : Jhon De] -->

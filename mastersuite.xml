@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Multiple XML files" parallel="false">
+	<suite-files>
+		<suite-file path="./flightsearch.xml"></suite-file>
+		<suite-file path="./hotelsearch.xml"></suite-file>
+	</suite-files>
+</suite>

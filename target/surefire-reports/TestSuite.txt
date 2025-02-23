@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.304 s <<< FAILURE! - in TestSuite
+testHotelSearch(com.qa.testpages.HotelPageTest)  Time elapsed: 17.06 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[p[contains(text(),'Enter locality')]]/following-sibling::input' (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.testpages.HotelPageTest.testHotelSearch(HotelPageTest.java:14)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[p[contains(text(),'Enter locality')]]/following-sibling::input"}
+  (Session info: chrome=133.0.6943.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecda8f2c9f2a1f567b8d09716ea30ffd, findElement {using=xpath, value=//label[p[contains(text(),'Enter locality')]]/following-sibling::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.60, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\C5364141\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54172/devtoo..., se:cdpVersion: 133.0.6943.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ecda8f2c9f2a1f567b8d09716ea30ffd
+	at com.qa.testpages.HotelPageTest.testHotelSearch(HotelPageTest.java:14)
+
